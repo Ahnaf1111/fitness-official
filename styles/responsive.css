@@ -7,11 +7,40 @@
     }
     nav{
         padding:0 20px;
+        margin-top: 52px;
     }
     ul>a{
         display: none;
     }
-
+    /* banner */
+    .banner{
+        flex-direction: column;
+    }
+    .banner-text>h1{
+        font-size: 2.6rem;
+        max-width: 285px;
+    }
+    .banner-text{
+        padding: 20px;
+        margin-top: 50px;
+    }
+    .banner-btn>button{
+        padding: 16px 20px;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    .banner-img{
+        /* padding: 10px; */
+    }
+    .absolute-2{
+        padding: 14px 18px;
+        top: 30%;
+        right: -4%;
+    }
+    .absolute-1{
+        bottom: 8%;
+        left: -3%;
+    }
 
 
 

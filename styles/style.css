@@ -12,9 +12,7 @@
 body{
     background: #000;
 }
-header,
-main,
-footer{
+section{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -38,15 +36,21 @@ footer{
     font-size: 1.1rem;
     font-weight: 600;
     line-height: 22px;
+    background: #E6533C;
+    border: 0;
+    border-radius: 40px;
 }
 /* header styles  */
+header{
+    background-image: linear-gradient(180deg, #111 0%, #2e2c2c 50%, rgba(119, 119, 119, 0.00) 100%);
+}
 nav,ul{
     display: flex;
     align-items: center;
 }
 nav{
     justify-content: space-between;
-    margin-top: 56px;
+    padding-top: 56px;
 }
 ul{
     gap: 24px;
@@ -73,4 +77,84 @@ nav>h3{
     padding: 8px 20px;
     border-radius: 46px;
     background: #E6533C;
+}
+/* banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text{
+    max-width: 520px;
+    display: flex;
+    gap: 28px;
+    flex-direction: column;
+}
+.banner-text>h1{
+    color: #FFF;
+    font-style: normal;
+    font-size: 4.8rem;
+    font-weight: 900;
+    line-height: 95%;
+}
+#miama{
+    font-family: "miama";
+    font-weight: 400;
+    align-self: stretch;
+}
+.banner-btn{
+    display: flex;
+    gap: 14px;
+}
+.btn-transparent{
+    background-color: transparent;
+    border: 1px solid #FFF;
+}
+.banner-img{
+    position: relative;
+}
+.absolute-2{
+    border-radius: 12px;
+border: 1px solid rgba(255, 255, 255, 0.10);
+background: rgba(255, 255, 255, 0.10);
+backdrop-filter: blur(10px);
+position: absolute;
+padding: 16px 24px;
+top: 27%;
+right: -12%;
+}
+.absolute-2>h4{
+    color: #FFF;
+font-size: 2.9rem;
+font-style: normal;
+font-weight: 900;
+line-height: 40px;
+letter-spacing: 1px;
+}
+.absolute-1{
+    border-radius: 12px;
+border: 1px solid rgba(255, 255, 255, 0.10);
+background: rgba(255, 255, 255, 0.10);
+backdrop-filter: blur(10px);
+position: absolute;
+padding: 16px 24px;
+display: flex;
+align-items: center;
+gap: 8px;
+bottom: 8%;
+left: -31%;
+}
+.absolute-1>div>h5{
+    color: #FFF;
+font-size: 2rem;
+font-style: normal;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 1px;
+}
+.ball{
+    height: 40px;
+    width: 40px;
+    background-color:#E6533C;
+    border-radius: 50%;
 }
