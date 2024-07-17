@@ -1,0 +1,76 @@
+@import url('https://fonts.cdnfonts.com/css/miama');
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+                
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Inter', sans-serif;
+}
+body{
+    background: #000;
+}
+header,
+main,
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* primary styles */
+.title{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+.p-primary{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.btn-primary{
+    padding: 16px 40px;
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 22px;
+}
+/* header styles  */
+nav,ul{
+    display: flex;
+    align-items: center;
+}
+nav{
+    justify-content: space-between;
+    margin-top: 56px;
+}
+ul{
+    gap: 24px;
+}
+ul>a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+nav>h3{
+    color: #E6533C;
+    font-size: 2.2rem;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%
+}
+.hamburger{
+    color: #FFF;
+    display: none;
+}
+.home{
+    padding: 8px 20px;
+    border-radius: 46px;
+    background: #E6533C;
+}

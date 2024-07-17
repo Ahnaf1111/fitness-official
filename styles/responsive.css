@@ -1,0 +1,21 @@
+@media screen and (max-width:576px){
+    /* nav */
+    .hamburger{
+        color: #FFF;
+        display: block;
+        font-size: 2rem;
+    }
+    nav{
+        padding:0 20px;
+    }
+    ul>a{
+        display: none;
+    }
+
+
+
+
+
+
+
+}
