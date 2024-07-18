@@ -1,4 +1,9 @@
 @media screen and (max-width:576px){
+    
+    .title{
+        font-size: 2rem;
+        font-weight: 700;
+    }
     /* nav */
     .hamburger{
         color: #FFF;
@@ -41,8 +46,17 @@
         bottom: 8%;
         left: -3%;
     }
-
-
+    /* habbit */
+    .habit-card-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .habit>p{
+        padding: 5px;
+    }
+    
 
 
 
