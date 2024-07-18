@@ -11,8 +11,8 @@
         font-size: 2rem;
     }
     nav{
-        padding:0 20px;
-        margin-top: 52px;
+        padding:52px 20px 0;
+        /* padding-top: 52px; */
     }
     ul>a{
         display: none;
@@ -86,5 +86,13 @@
         line-height: 120%;
         margin-bottom: 22px;
         margin-top: 1rem;
+    }
+    /* team */
+    .team-pic-grid{
+        grid-template-columns: 1fr;
+    }
+    .team-member>h5{
+        font-weight: 500;
+        font-size: 1.3rem;
     }
 }
