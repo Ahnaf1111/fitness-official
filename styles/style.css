@@ -214,3 +214,92 @@ line-height: 120%;
     height: 100%;
     border-radius: 1rem;
 }
+/* bmi */
+.bmi-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 52px;
+    background-color: #222;
+}
+.bmi-input{
+    max-width: 577px;
+}
+.bmi-title{
+    margin: 0 auto 88px;
+    max-width: 671px;
+}
+.bmi-title>h3{
+    margin-bottom: 1rem;
+}
+.bmi-table>h4{
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 52px;
+}
+input, select{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+}
+table, td, th{
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+}
+td{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 0.9rem;
+}
+th{
+    color: #FFF;
+    font-size: 1rem;
+}
+.bmi-input>h4{
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 0.9rem;
+}
+.row-1>input,
+.row-2>input
+{
+    /* display: flex; */
+    /* gap: 0.9rem; */
+    width: 48%;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 12px 20px;
+    border: 0;
+    margin-top: 0.8rem;
+}
+.row-2>select{
+    width: 48%;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 12px 20px;
+    border: 0;
+    margin-top: 0.8rem;
+}
+.row-3 > select{
+    width: 96.50%;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 12px 20px;
+    border: 0;
+    margin-top: 0.8rem;
+}
+.row-3>select>option{
+    background: #222;
+}
+.row-2>select>option{
+    background: #222;
+}
+form>button{
+    margin-top: 2rem;
+}
