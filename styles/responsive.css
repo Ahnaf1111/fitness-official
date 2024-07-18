@@ -95,4 +95,21 @@
         font-weight: 500;
         font-size: 1.3rem;
     }
+    /* unique */
+    .card-container{
+        grid-template-columns: 1fr;
+    }
+    .card{
+        padding: 10px;
+    }
+    .unique{
+        padding: 10px;
+    }
+    .faq-flex{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .faq-search>input{
+        margin-bottom: 1rem;
+    }
 }
