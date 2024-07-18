@@ -56,8 +56,14 @@
     .habit>p{
         padding: 5px;
     }
-    
-
+    /* running */
+    .running{
+        flex-direction: column;
+    }
+    .running-text>div>button{
+        width: 100%;
+        margin-bottom: 31px;
+    }
 
 
 
