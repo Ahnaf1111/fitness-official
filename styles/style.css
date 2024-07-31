@@ -213,6 +213,8 @@ line-height: 120%;
     width: 100%;
     height: 100%;
     border-radius: 1rem;
+    object-fit: none;
+    object-position: 66% 33%;
 }
 /* bmi */
 .bmi-container{
