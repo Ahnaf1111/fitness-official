@@ -83,6 +83,7 @@ nav>h3{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
 }
 .banner-text{
     max-width: 520px;
@@ -95,12 +96,12 @@ nav>h3{
     font-style: normal;
     font-size: 4.8rem;
     font-weight: 900;
-    line-height: 95%;
+    line-height: 107%;
 }
 #miama{
     font-family: "miama";
     font-weight: 400;
-    align-self: stretch;
+    font-size: 9rem;
 }
 .banner-btn{
     display: flex;
@@ -293,6 +294,7 @@ th{
     padding: 12px 20px;
     border: 0;
     margin-top: 0.8rem;
+    color: rgb(221 216 223 / 40%);
 }
 .row-3 > select{
     width: 96.50%;
@@ -301,6 +303,7 @@ th{
     padding: 12px 20px;
     border: 0;
     margin-top: 0.8rem;
+    color: rgb(221 216 223 / 40%);
 }
 .row-3>select>option{
     background: #222;
@@ -419,6 +422,14 @@ line-height: 120%;
 .card:hover{
     transform: scale(1.05);
     filter: none;
+}
+.see-more{
+    display: block;
+    text-align: right;
+    color: #E6533C;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 2rem;
 }
 /* footer */
 footer{

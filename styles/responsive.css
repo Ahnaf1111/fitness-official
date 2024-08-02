@@ -24,10 +24,14 @@
     .banner-text>h1{
         font-size: 2.6rem;
         max-width: 285px;
+        
     }
     .banner-text{
         padding: 20px;
         margin-top: 50px;
+    }
+    #miama{
+        font-size: 4rem;
     }
     .banner-btn>button{
         padding: 16px 20px;
