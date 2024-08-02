@@ -99,6 +99,9 @@
         margin-top: 1rem;
     }
     /* team */
+    .team{
+        padding: 20px;
+    }
     .team-pic-grid{
         grid-template-columns: 1fr;
     }
