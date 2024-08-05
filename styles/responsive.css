@@ -14,6 +14,9 @@
         padding:52px 20px 0;
         /* padding-top: 52px; */
     }
+    ul{
+        border: none;
+    }
     ul>a{
         display: none;
     }
@@ -108,6 +111,9 @@
     .team-member>h5{
         font-weight: 500;
         font-size: 1.3rem;
+    }
+    .russell,.cody{
+        display: none;
     }
     /* unique */
     .card-container{

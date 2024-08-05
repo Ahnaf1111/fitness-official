@@ -125,7 +125,7 @@ backdrop-filter: blur(10px);
 position: absolute;
 padding: 16px 24px;
 top: 27%;
-right: -12%;
+right: 0%;
 }
 .absolute-2>h4{
     color: #FFF;
@@ -150,11 +150,11 @@ left: -31%;
 }
 .absolute-1>div>h5{
     color: #FFF;
-font-size: 2rem;
-font-style: normal;
-font-weight: 600;
-line-height: 40px;
-letter-spacing: 1px;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 1px;
 }
 .ball{
     height: 40px;
