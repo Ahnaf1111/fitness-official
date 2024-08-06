@@ -78,6 +78,25 @@
         width: 100%;
         margin-bottom: 31px;
     }
+    /* exercise */
+    .exercises{
+        padding: 1.2rem;
+        margin-bottom: 4rem;
+    }
+    .exercise-row-1{
+        grid-template-columns: 0.50fr 0.50fr;
+    }
+    .push-ups{
+        display: none;
+    }
+    .exercise-row-2{
+        grid-template-columns: 0.40fr 0.60fr;
+    }
+    .stretch-2{
+        display: none;
+    }
+
+    /* bmi */
     .bmi-container{
         flex-direction: column;
         padding: 10px;
